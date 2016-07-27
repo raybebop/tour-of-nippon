@@ -22,6 +22,8 @@ GENESIS: 大阪府中央区西心斎橋2-16-13 宝泉ビル
 
 SOPHNET:
 
+NUMBER (NINE): HANKYU MEN'S OSAKA 大阪府大阪市北区角田町7番10号
+
 FDMTL:
 -印-　mathematics　グランフロント大阪店
 〒530−0011
