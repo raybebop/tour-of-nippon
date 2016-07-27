@@ -28,6 +28,12 @@ FDMTL:
 大阪市北区大深町4番20号　グランフロント大阪　南館　4F
 
 kapital:
-〒530-0017 大阪府大阪市北区角田町7-10阪急メンズ大阪5F
+〒530-0017
+大阪市北区角田町7-10阪急メンズ大阪5F
+TEL 06-6315-1020
+OPEN 11:00 / CLOSE 21:00
+weekday OPEN 11:00/CLOSE 21:00
+saturday OPEN 10:00/CLOSE 21:00
+holiday OPEN 10:00/CLOSE 20:00
 
 
