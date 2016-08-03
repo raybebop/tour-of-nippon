@@ -4,9 +4,25 @@
 import os, sys, re
 import httplib
 import string
+import json
 
 import lxml.html
 from lxml import etree
+
+#http://www.vvshu.com/view/popeye/index%d.shtml
+_host = "www.vvshu.com"
+_port = 80
+_uri = "/view/popeye/index%d.shtml"
+
+#def http_post(host, port, uri, params):
+#    headers = {
+#        'Content-type': 'application/x-www-form-urlencoded',
+#        'Accept': 'text/plain'
+#    }
+#    conn = httplib.HTTPConnection(host, port)
+#    conn.request("POST", uri, params, headers)
+#    response = conn.getresponse()
+#    return response.read()
 
 def http_get(host, port, uri):
     headers = {
@@ -18,65 +34,66 @@ def http_get(host, port, uri):
     response = conn.getresponse()
     return response.read()
 
-def http_post(host, port, uri, params):
-    headers = {
-        'Content-type': 'application/x-www-form-urlencoded',
-        'Accept': 'text/plain'
-    }
-    conn = httplib.HTTPConnection(host, port)
-    conn.request("POST", uri, params, headers)
-    response = conn.getresponse()
-    return response.read()
-
-def get_book_entry(doc):
+def get_book_entry(u):
+    doc = http_get(*u)
     html = etree.HTML(doc.lower().decode('gbk'))
     hrefs = html.xpath("//div[@class='vvmlt']/ul/li/a")
-    #for i in hrefs:
-    #    print i.attrib
     return map(lambda x: x.attrib['href'], hrefs)
 
-def get_book_info(doc):
+def get_book_info(u):
     rtv = dict()
+    rtv['url'] = u
+    doc = http_get(_host, _port, "/%s" % "/".join(u.split('/')[3:]))
     html = etree.HTML(doc.lower().decode('gbk'))
     title = html.xpath("//title/text()")
     pnum = html.xpath("//script[@language='javascript']/text()")
     rtv['title'] = re.sub(' ', '_', title[0].encode('utf-8').split('-')[0].strip(' '))
-    for i in pnum:
-        if re.search(r'var page', i):
-            rtv['pnum'] = re.findall(r'var page = (.*);', i)[0]
-            break
+    try:
+        rtv['pnum'] = re.findall(r'var page = (.*);', "\n".join(pnum))[0]
+    except Exception,e:
+        raise e
+    rtv['pages'] = map(lambda x: "%s?%d" % (u, x), range(2, string.atoi(rtv['pnum'])+1))
+    rtv['pages'].insert(0, u)
     return rtv
 
-def main():
-    #http://www.vvshu.com/view/popeye/index%d.shtml
-    _host = "www.vvshu.com"
-    _port = 80
-    _uri = "/view/popeye/index%d.shtml"
+def get_book_img(u):
+    img_host = "img1.vvshu.com"
+    doc = http_get(_host, _port, "/%s" % "/".join(u.split('/')[3:]))
+    html = etree.HTML(doc.lower().decode('gbk'))
+    psrc = html.xpath("//script[@language='javascript']/text()")
+    try:
+        _page = re.findall(r'var page = (.*);', "\n".join(psrc))[0]
+        _noo = re.findall(r'var noo = (.*);', "\n".join(psrc))[0]
+        _dir = re.findall(r'var dir = (.*);', "\n".join(psrc))[0]
+        _gs = re.findall(r'var gs = (.*);', "\n".join(psrc))[0]
+    except Exception,e:
+        raise e
+    if '?' in u:
+        _pn = '%03d' % string.atoi(u.split('?')[-1])
+    else: 
+        _pn = '%03d' % string.atoi('1')
+    return "http://%s/%s%s%s" % (img_host, _dir.strip("'"), _pn, _gs.strip("'"))
 
+def main():
     entries = map(lambda x: _uri % x, range(1,4))
     entries = map(lambda x: (_host, _port, x), entries)
 
     books = list()
-    for i in entries:
-        doc = http_get(*i)
-        #for i in get_book_entry(doc):
-        #    print i
-        #sys.exit()
-        books.extend(get_book_entry(doc))
+    _books = map(lambda x: get_book_entry(x), entries)
+    _books = map(lambda x: len(books) < 0 and books.append(x) or books.extend(x), _books)
 
-    book_detail = list()
-    for i in books:
-        _info = dict()
-        _info['url'] = i
-        doc = http_get(_host, _port, "/%s" % "/".join(i.split('/')[3:]))
-        info = dict(get_book_info(doc), **_info)
-        print info
-        book_pages = list()
-        book_pages.append(i)
-        for j in range(2,string.atoi(info['pnum'])+1):
-            print j
-        sys.exit()
+    book_detail = map(lambda x: get_book_info(x), books)
 
+    for i in book_detail:
+        _temp = dict()
+        _temp['imgs'] = list()
+        for j in i['pages']:
+            _temp['imgs'].append(get_book_img(j))
+        i.update(_temp)
+
+    #print json.dumps(book_detail)
+    for j in book_detail:
+        print j['url']
 
 if __name__ == '__main__':
     main()
