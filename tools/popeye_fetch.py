@@ -40,7 +40,7 @@ def get_book_entry(u):
     hrefs = html.xpath("//div[@class='vvmlt']/ul/li/a")
     return map(lambda x: x.attrib['href'], hrefs)
 
-def get_book_info(u):
+def get_book_detail(u):
     rtv = dict()
     rtv['url'] = u
     doc = http_get(_host, _port, "/%s" % "/".join(u.split('/')[3:]))
@@ -82,8 +82,7 @@ def main():
     _books = map(lambda x: get_book_entry(x), entries)
     _books = map(lambda x: len(books) < 0 and books.append(x) or books.extend(x), _books)
 
-    book_detail = map(lambda x: get_book_info(x), books)
-
+    book_detail = map(lambda x: get_book_detail(x), books[:2])
     for i in book_detail:
         _temp = dict()
         _temp['imgs'] = list()
@@ -94,6 +93,10 @@ def main():
     #print json.dumps(book_detail)
     for j in book_detail:
         print j['url']
+        print j['imgs']
+        print
+        print "="*77
+        print
 
 if __name__ == '__main__':
     main()
