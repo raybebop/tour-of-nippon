@@ -33,6 +33,8 @@ D7: 东京->北京
 
 3. 交通
 
+利木津巴士：http://www.limousinebus.co.jp/ch1/bus_services/
+
 机场主要交通：
 成田机场→横滨，坐火车约86分钟
 羽田机场→横滨，坐巴士约30分钟
@@ -59,3 +61,15 @@ http://hnd-bus.com/route/hakoneyumoto.html
 1.31-2.7
 
 2.1-2.7
+
+6. 酒店
+
+箱根：
+箱根天成园酒店(Hakone Tenseien Hotel) 
+箱根小涌园酒店(Hakone Hotel Kowakien)
+箱根品之木旅馆一之汤(Shinanoki Ichinoyu Hakone) 
+箱根汤本富士屋酒店(Yumoto Fujiya Hotel Hakone) 
+箱根芦之湖王子酒店(The Prince Hakone Lake Ashinoko) 
+箱根平和吉野酒店(Pax Yoshino Hakone)
+神奈川箱根汤本温泉冈田酒店(Hotel Okada Hakone Kanagawa) 
+
