@@ -17,6 +17,17 @@ D5: 箱根->东京
 D6: 东京
 D7: 东京->北京
 ===================================================
+30: departure
+31:
+1: 
+2:
+3:
+4:
+5:
+6:
+7:
+8: arrive
+===================================================
 
 2. 景点
 
@@ -64,7 +75,24 @@ http://hnd-bus.com/route/hakoneyumoto.html
 
 6. 酒店
 
+东京：
+
+东京新宿王子大饭店(Shinjuku Prince Hotel Tokyo)：从酒店步行5分钟至新宿车站西口，可乘坐机场大巴往返车站和机场之间。
+东京新宿华盛顿酒店(Shinjuku Washington Hotel Tokyo) ：搭乘利木津号线至新宿华盛顿酒店站，步行约2分钟到达
+
+新宿华盛顿酒店新馆(Shinjuku Washington Hotel Annex) ：酒店门口就是去机场的bus
+
+太阳成员东京新宿酒店(Hotel Sun Members Tokyo Shinjuku) ：就在华盛顿酒店后，定梨木津巴士方便
+
+东京西铁inn新宿酒店(Nishitetsu Inn Shinjuku) ：距离希尔顿酒店和新宿站西口较近
+
+角屋酒店(Kadoya Hotel)：距离新宿站西口和京王酒店较近
+新宿灿路都广场大酒店(Hotel Sunroute Plaza Shinjuku)：步行大约5分钟抵达新宿车站西口，有机场大巴往返车站和机场之间
+
+宜必思东京新宿酒店(ibis Tokyo Shinjuku)：步行大约5分钟抵达新宿车站西口，有机场大巴往返车站和机场之间
+
 箱根：
+
 箱根天成园酒店(Hakone Tenseien Hotel) 
 箱根小涌园酒店(Hakone Hotel Kowakien)
 箱根品之木旅馆一之汤(Shinanoki Ichinoyu Hakone) 
