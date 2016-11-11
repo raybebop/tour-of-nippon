@@ -17,21 +17,23 @@ D5: 箱根->东京
 D6: 东京
 D7: 东京->北京
 ===================================================
-30: departure
-31:
-1: 
-2:
-3:
-4:
-5:
-6:
-7:
-8: arrive
+D1: W3/bj->tokyo(16:40~21:00)
+D2: W4/tokyo
+D3: W5/tokyo
+D4: W6/tokyo
+D5: W7/tokyo->kamakura->hakone
+    http://www.mafengwo.cn/wenda/detail-1335650.html
+    http://blog.sina.com.cn/s/blog_9c7a6f530101asci.html
+D6: W1/hakone
+D7: W2/hakone
+D8: W3/hakone
+D9: W4/tokyo->bj(17:20~20:30)
 ===================================================
 
 2. 景点
 
 镰仓大佛
+
 
 富士箱根伊豆国立公园: 富士山地区(这里有日本最高峰富士山，以及五大火山湖)，箱根地区(因箱根温泉和植物园而闻名)，伊豆半岛地区(这里有天成山，城崎海岸，热海温泉，伊东温泉等)，以及伊豆诸岛(因海底火山而形成)
 
@@ -61,6 +63,12 @@ D7: 东京->北京
 
 4. 临时攻略
 
+http://360.mafengwo.cn/travels/info.php?id=1033417
+
+http://www.mafengwo.cn/i/967592.html
+
+http://www.mafengwo.cn/group/info.php?iid=3145804&page=1
+
 http://www.mafengwo.cn/i/3111488.html
 
 http://www.hakonenavi.jp/cn/traffic/
@@ -69,9 +77,6 @@ http://hnd-bus.com/route/hakoneyumoto.html
 
 5. 机票
 
-1.31-2.7
-
-2.1-2.7
 
 6. 酒店
 
