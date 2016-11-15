@@ -5,6 +5,16 @@ D1: W3/bj->tokyo(16:40~21:00)
 D2: W4/tokyo
 D3: W5/tokyo
 D4: W6/tokyo
+D5: W7/tokyo->kamakura->tokyo
+D6: W1/tokyo->hakone
+D7: W2/hakone
+D8: W3/hakone->
+D9: W4/tokyo->bj(17:20~20:30)
+===================================================
+D1: W3/bj->tokyo(16:40~21:00)
+D2: W4/tokyo
+D3: W5/tokyo
+D4: W6/tokyo
 D5: W7/tokyo->kamakura->hakone
     箱根/富士山地区交通攻略: http://linshibi.com/?p=1249
 
@@ -41,10 +51,8 @@ http://360.mafengwo.cn/travels/info.php?id=830987
 
 箱根: 御殿场，大涌谷，芦之湖，富士山五合目，河口湖（山梨县）
 
+http://bbs.qyer.com/thread-2618244-1.html
 
-浅草寺
-皇居
-台场
 
 3. 交通
 
