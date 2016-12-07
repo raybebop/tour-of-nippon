@@ -2,14 +2,28 @@
 
 ===================================================
 D1: W3/bj->haneda airport->tokyo(16:40~21:00)
+
 D2: W4/tokyo
+    新宿小田急旅游服务中心: 小田急新宿站西口1层 (地上楼层), 上午8:00〜晚上6:00
+    需要购买的:
+        - 江之岛镰仓周游票
+        - 富士箱根周游票(富士山到新宿的回程大巴需要提前邮件预约)
+        - 小田急浪漫特快票: tokyo<->kamakura or tokyo->hakone
+
 D3: W5/tokyo
+
 D4: W6/tokyo
+
 D5: W7/tokyo->kamakura->tokyo
+
 D6: W1/tokyo->hakone
+
 D7: W2/hakone->gotemba->fujikyu
+
 D8: W3/fujikyu->tokyo
+
 D9: W4/tokyo->haneda airport->bj(17:20~20:30)
+
 ===================================================
 
     江之島−鎌倉周遊券
