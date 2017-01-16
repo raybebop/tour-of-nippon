@@ -3,7 +3,12 @@
 ===================================================
 D1: W3/bj->haneda airport->tokyo(16:40~21:00)
 
+    - 机场/新宿
+        利木津巴士: 到新宿站西口
+        利木津巴士：http://www.limousinebus.co.jp/ch1/bus_services/
+
 D2: W4/tokyo
+
     新宿小田急旅游服务中心: 小田急新宿站西口1层 (地上楼层), 上午8:00〜晚上6:00
     需要购买的:
         - 江之岛镰仓周游票
@@ -16,13 +21,37 @@ D4: W6/tokyo
 
 D5: W7/tokyo->kamakura->tokyo
 
+    - 镰仓
+        新宿<->藤泽: 小田急浪漫特快，e-Romancecar购票和预约
+        藤泽<->镰仓: 江之电，包含在江之岛/镰仓周游券里
+
 D6: W1/tokyo->hakone
+
+    - 箱根
+        新宿->箱根: 小田急浪漫特快，e-Romancecar购票和预约
+        箱根登山电车: 包含在富士箱根周游券里
 
 D7: W2/hakone->gotemba->fujikyu
 
+    - 御殿场
+        箱根->御殿场: 富士急行巴士，包含在富士箱根周游券里
+        御殿场->河口湖: 富士急行巴士，包含在富士箱根周游券里
+
 D8: W3/fujikyu->tokyo
 
+    - 河口湖/富士山
+        http://ask.qyer.com/question/937909.html
+
+        河口湖->山中湖: 富士急行巴士，包含在富士箱根周游券里，河口湖站9:00 => 山中湖9:23
+            http://bus-cn.fujikyu.co.jp/highway/detail/id/1/
+        山中湖->忍野八海->富士山站: 富士湖号/富士急山梨巴士，需要单独购买
+            http://bus-cn.fujikyu.co.jp/heritage-tour/detail/id/2/
+        富士山站/河口湖站->新宿: 富士急行巴士，包含在富士箱根周游券里，但需要提前预定行程和座位
+
 D9: W4/tokyo->haneda airport->bj(17:20~20:30)
+
+    - 新宿/机场
+        利木津巴士: 新宿站西口出发
 
 ===================================================
 
@@ -66,36 +95,7 @@ http://bbs.qyer.com/thread-2618244-1.html
 
 http://bbs.qyer.com/thread-1042551-1.html
 
-3. 交通
-
-    - 机场/新宿
-        利木津巴士: 到新宿站西口
-        利木津巴士：http://www.limousinebus.co.jp/ch1/bus_services/
-
-    - 镰仓
-        新宿<->藤泽: 小田急浪漫特快，e-Romancecar购票和预约
-        藤泽<->镰仓: 江之电，包含在江之岛/镰仓周游券里
-
-    - 箱根
-        新宿->箱根: 小田急浪漫特快，e-Romancecar购票和预约
-        箱根登山电车: 包含在富士箱根周游券里
-
-    - 御殿场
-        箱根->御殿场: 富士急行巴士，包含在富士箱根周游券里
-        御殿场->河口湖: 富士急行巴士，包含在富士箱根周游券里
-
-    - 河口湖/富士山
-        河口湖->山中湖: 富士急行巴士，包含在富士箱根周游券里，河口湖站9:00 => 山中湖9:23
-            http://bus-cn.fujikyu.co.jp/highway/detail/id/1/
-        山中湖->忍野八海->富士山站: 富士湖号，需要单独购买
-            http://bus-cn.fujikyu.co.jp/heritage-tour/detail/id/2/
-        富士山站/河口湖站->新宿: 富士急行巴士，包含在富士箱根周游券里，但需要提前预定行程和座位
-
-    - 新宿/机场
-        利木津巴士: 新宿站西口出发
-
-
-4. 临时攻略
+3. 临时攻略
 
 http://360.mafengwo.cn/travels/info.php?id=1033417
 
