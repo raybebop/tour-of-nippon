@@ -9,15 +9,31 @@ D1: W3/bj->haneda airport->tokyo(16:40~21:00)
 
 D2: W4/tokyo
 
-    新宿小田急旅游服务中心: 小田急新宿站西口1层 (地上楼层), 上午8:00〜晚上6:00
-    需要购买的:
+    - 新宿小田急旅游服务中心: 小田急新宿站西口1层 (地上楼层), 上午8:00〜晚上6:00
         - 江之岛镰仓周游票
         - 富士箱根周游票(富士山到新宿的回程大巴需要提前邮件预约)
         - 小田急浪漫特快票: tokyo<->kamakura or tokyo->hakone
+        
+    - 银座
+        - 松屋
+        - 阪急
+        - dover street market
+        - the park ing
+
+    - 新宿
+        - 伊势丹
+        - beams
+        - disk union
 
 D3: W5/tokyo
 
+    - 涉谷
+
+    - 原宿
+
 D4: W6/tokyo
+
+    - 目黑
 
 D5: W7/tokyo->kamakura->tokyo
 
