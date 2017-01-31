@@ -30,12 +30,6 @@ D2: W4/tokyo
 
 D3: W5/tokyo
 
-    - 涉谷
-
-    - 原宿
-
-D4: W6/tokyo
-
     - 目黑/代官山
         - supreme
         - nigel cabourn
@@ -45,6 +39,16 @@ D4: W6/tokyo
         - B印
         - tenderloin
         - tsutaya books
+
+D4: W6/tokyo
+
+    - neighborhood 17ss open
+
+    - vans X undercover release
+
+    - 涉谷
+
+    - 原宿
 
 D5: W7/tokyo->kamakura->tokyo
 
