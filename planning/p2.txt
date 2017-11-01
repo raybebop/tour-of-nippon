@@ -1,15 +1,38 @@
 1. 行程
 
-D1: 北京->关西机场->博多->长崎
-D2: 长崎
-D3: 长崎
-D4: 长崎->福冈
-D5: 福冈
-D6: 福冈
-D7: 福冈->北京
+2.18-2.27
+2.19-2.26
+2.20-2.27
+
+D1: bj->nagoya
+D2: nagoya
+D3: nagoya->kobe
+D4: kobe
+D5: kobe->osaka
+D6: osaka
+D7: osaka
+D8: osaka->bj
 
 2. 景点
 
-长崎: 豪斯登堡，中华街，唐人屋敷，孔庙，「四大唐寺」(兴福寺/崇福寺/圣福寺/福济寺)，
+名古屋: 
+    - 热田神宫
+    - 名古屋城
+    - 鳗鱼饭/蓬莱轩
 
-福冈: 福冈塔，博多运河城，天神，圣福寺、东长寺、栉田神社、箱崎宫
+神户: 
+    - 唐人街
+    - 北野异人馆
+    - 神户塔夜景
+    - 神户港
+    - moriya牛排店
+    - 六甲牧场: 冰淇淋/芝士蛋糕
+    - 三田奥特莱斯: http://www.premiumoutlets.co.jp/chs/kobesanda/brands/?tab=1
+
+大阪:
+    - 临空奥特莱斯: http://www.premiumoutlets.co.jp/chs/rinku/brands/?tab=1
+
+3. 交通
+
+http://www.jpwindow.com/traffic/osaka_kobe.html
+
