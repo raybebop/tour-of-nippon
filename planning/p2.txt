@@ -1,17 +1,25 @@
 1. 行程
 
-2.18-2.27
-2.19-2.26
-2.20-2.27
+src_dst:
+    bj->osaka->bj
+    bj->nagoya->bj
+    bj->osaka->nagoya->bj
+    bj->nagoya->osaka->bj
 
-D1: bj->nagoya
-D2: nagoya
-D3: nagoya->kobe
-D4: kobe
-D5: kobe->osaka
-D6: osaka
-D7: osaka
-D8: osaka->bj
+range:
+    2.18-2.27
+    2.19-2.26
+    2.20-2.27
+
+schedule:
+    D1: bj->nagoya
+    D2: nagoya
+    D3: nagoya->kobe
+    D4: kobe
+    D5: kobe->osaka
+    D6: osaka
+    D7: osaka
+    D8: osaka->bj
 
 2. 景点
 
