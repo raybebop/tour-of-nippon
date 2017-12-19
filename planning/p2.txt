@@ -17,7 +17,27 @@ schedule:
     27/D8: osaka
     28/D9: osaka->bj(15:30-17:45)
 
-2. 景点
+2. 交通
+
+nagoya centair airport
+    http://jpwindow.com/traffic/nagoya_airport.html
+
+nagoya->osaka
+    http://www.mafengwo.cn/wenda/detail-6569459.html
+    http://www.mafengwo.cn/wenda/detail-8075357.html
+    http://www.mafengwo.cn/wenda/detail-8275849.html
+    http://www.mafengwo.cn/wenda/detail-8540382.html
+
+nagoya->kobe
+
+osaka kansai airport
+    http://www.jpwindow.com/traffic/kansai_airport.html
+    http://www.kate.co.jp/timetable/index
+
+kobe<->osaka
+    http://www.jpwindow.com/traffic/osaka_kobe.html
+
+3. 景点
 
 名古屋: 
     - 热田神宫
