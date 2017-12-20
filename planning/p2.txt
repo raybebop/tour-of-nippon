@@ -11,8 +11,8 @@ schedule:
     21/D2: nagoya
     22/D3: nagoya->kobe
     23/D4: kobe
-    24/D5: kobe->osaka
-    25/D6: osaka
+    24/D5: kobe
+    25/D6: kobe->osaka
     26/D7: osaka
     27/D8: osaka
     28/D9: osaka->bj(15:30-17:45)
