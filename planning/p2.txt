@@ -29,6 +29,7 @@ nagoya->osaka
     http://www.mafengwo.cn/wenda/detail-8540382.html
 
 nagoya->kobe
+    在神户乘坐JR东海道本线新快速到新大阪站下，换乘JR新干线到名古屋站下
 
 osaka kansai airport
     http://www.jpwindow.com/traffic/kansai_airport.html
@@ -40,7 +41,6 @@ kobe<->osaka
 3. 景点
 
 名古屋: 
-    - 热田神宫
     - 名古屋城
     - 鳗鱼饭/蓬莱轩
 
