@@ -21,6 +21,9 @@ schedule:
 
 nagoya centair airport
     http://jpwindow.com/traffic/nagoya_airport.html
+    http://www.mafengwo.cn/wenda/detail-8869120.html
+    http://www.mafengwo.cn/wenda/detail-2289054.html
+    http://www.mafengwo.cn/wenda/detail-6906385.html
 
 nagoya->osaka
     http://www.mafengwo.cn/wenda/detail-6569459.html
@@ -55,8 +58,6 @@ kobe<->osaka
         http://www.premiumoutlets.co.jp/chs/kobesanda/brands/?tab=1
 
 大阪:
-    - 临空奥特莱斯
-        http://www.premiumoutlets.co.jp/chs/rinku/brands/?tab=1
 
 3. 交通
 
